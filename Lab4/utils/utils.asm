@@ -1,6 +1,6 @@
     ; assert
     .MACRO assert ; (addr,value)
-        .IFCONST ASSERT
+        .IFCONST POBS
 		    .BYTE $FF
 		    .WORD {1}
 		    .BYTE {2}
