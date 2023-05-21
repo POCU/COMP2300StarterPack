@@ -1,7 +1,8 @@
     .PROCESSOR 6502
     .ORG $8000
 
-    .INCLUDE "utils/utils.asm"
+end:
+	jmp end
 
     .ORG $FFFC,0
     .WORD $8000

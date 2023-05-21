@@ -1,4 +1,4 @@
-    .PROCESSOR 6502
+﻿    .PROCESSOR 6502
     .ORG $8000
 
 end:
